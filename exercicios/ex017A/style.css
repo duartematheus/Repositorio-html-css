@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Letras diferentes';
+    src: url('fontes/Green\ London.ttf');
+}
+h1{
+    font: normal 32px 'Letras diferentes',verdana,serif;
+    text-align:center ;
+    
+}
+h1#diferente{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: right;
+}
+p{
+    text-align: justify;
+}
+.teste1{
+    color: blue;
+
+}
+.teste2{
+    color: blueviolet;
+}
+.teste3{
+    color: brown;
+
+}
+.destaque{
+    background-color: black;
+    color: white;
+}

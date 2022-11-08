@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+
+}
+body{
+    background-image: linear-gradient(to right,#6E5FA3,#F0AC73,#B5A4F0,#54F05A,#85AB87);
+}
+main{
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(124, 99, 99, 0.582);
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #4121A3;
+    text-align: center;    
+    text-shadow: 2px 2px 2px #211053d5;
+}
+h2{
+    color: #A987F0;
+}
+p {
+    text-align: justify;
+}
