@@ -12,6 +12,40 @@ header{
     width: 100%;
     text-align: center;
 }
-header > p{
+header >p > a{
     text-decoration: none;
+    color: white;    
+}
+a:hover {
+    text-decoration: underline;
+}
+section{
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    line-height: 1.5em;
+    padding-left: 40px;
+}
+section.normal{
+    
+    background-color: white;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+
+}
+section.imagem > p {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer>h4>a{
+    text-decoration: none;
+    color: white;
 }
