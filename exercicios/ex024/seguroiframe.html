@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer iframe seguro</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+        }
+        p{
+            padding: 10px;
+            color: white;
+        }
+        iframe{
+            background-color: white;
+            width: 90vw;
+        }
+        ul{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Como fazer um Iframe seguro</h1>
+    <p>Utilizando as funcionalidades presentes dentro das configuraçoes do iframe podemos assegurar uma possibilidade de violação com:
+    <ul>sandbox="sandbox"</ul>
+    <ul>referrerpolicy="no-referrer"</ul>
+    </p>
+    <iframe src="iframe002.html" sandbox="sandbox" referrerpolicy="no-referrer"></iframe>
+    <p>Para fazer uma configuração permitindo que (sandbox) acesse algumas partes do iframe. 
+    Ex:
+    <ul>sandbox="allow-same-origin allow-forms allow-scripts" </ul>
+    
+    </p>
+    
+</body>
+</html>
