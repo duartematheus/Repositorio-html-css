@@ -3,5 +3,6 @@
 /*Aparelho modo landscape (paisagem)*/
 
 body{
-    background-color: green;
+    background-image: url(../imagensFundo/cev-landscape.jpg) ;
+    background-position: left bottom;
 }
