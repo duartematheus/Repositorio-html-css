@@ -3,11 +3,20 @@
 /*O menu humburguer vai variar de tamanho
 de acordo com o tamanho em px da tela*/
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 668px){
     
-    i#burguer{
+    span#burguer{
         display: none;
     }
-      
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+        
+    } 
+    main{
+        width: 500px;
+    }
     
 }
