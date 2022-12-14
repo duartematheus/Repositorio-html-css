@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*O menu humburguer vai variar de tamanho
+de acordo com o tamanho em px da tela*/
+
+@media screen and (min-width: 768px){
+    
+    i#burguer{
+        display: none;
+    }
+      
+    
+}

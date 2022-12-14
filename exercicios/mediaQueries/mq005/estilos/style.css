@@ -53,7 +53,7 @@ main{
     border-radius: 10px;
 }
 
-span#burguer{
+i#burguer{
     background-color: rgba(0, 0, 255, 0.514);
     width: 100vw;
     display: block;
@@ -62,7 +62,7 @@ span#burguer{
     cursor: pointer;
 
 }
-span#burguer:hover{
+i#burguer:hover{
     background-color: white;
     color: red;
 }
